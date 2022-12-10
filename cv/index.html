@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://webtoolstech.github.io/style webmaker.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="form container" id="form">
+        <p>Name:</p>
+        <input type="text" name="" id="nameINPUT">
+        <p>Telephone number:</p>
+        <input type="tel" name="" id="telINPUT">
+        <p>Email</p>
+        <input type="email" name="" id="mailINPUT">
+        <p>Website</p>
+        <input type="url" name="" id="webINPUT">
+        <p>Img</p>
+        <span style="font-size: 10px;"><p>Please upload the img on <a href="https://imgur.com/">imgur</a> or on another platform</p></span>
+        <input type="url" name="" id="img">
+        <p>Experience:</p>
+        <textarea name="" id="input_experience" cols="30" rows="10"></textarea>
+        <p>Education:</p>
+        <textarea name="" id="input_education" cols="30" rows="10"></textarea>
+        <p>Communication:</p>
+        <textarea name="" id="input_Communication" cols="30" rows="10"></textarea>
+        <p>Leadership:</p>
+        <textarea name="" id="input_Leadership" cols="30" rows="10"></textarea>
+        <p>References:</p>
+        <textarea name="" id="input_References" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Submit" id="create" onclick="create()">
+
+    </div>
+    <div class="cv" id="cv">
+        <img src="bg.png" alt="" id="bg">
+        <div class="contact">
+            <div class="con-val" id="img"></div>
+            <div class="name">
+                <h1>Name:</h1>
+            <div class="con-val" id="name"></div>
+            </div>
+            
+            <div class="phone">
+                <img src="phone.png" alt="">
+                <div class="con-val" id="phone"></div>
+            </div>
+            <div class="Email">
+                <img src="email.png" alt="">
+                <div class="con-val" id="Email"></div>
+            </div>
+            <div class="web">
+                <img src="web.png" alt="">
+                <div class="con-val" id="web"></div>
+            </div>
+        </div>
+        
+
+        <div class="text">
+            <hr>
+            <h1>Experience</h1>
+            <div class="value-part" id="experience">
+
+            </div>
+            <hr>
+            <h1>Education</h1>
+            <div class="value-part" id="education">
+
+            </div>
+            <hr>
+            <h1>Communication</h1>
+            <div class="value-part" id="communication">
+
+            </div>
+            <hr>
+            <h1>Leadership</h1>
+            <div class="value-part" id="Leadership">
+
+            </div>
+            <hr>
+            <h1>References</h1>
+            <div class="value-part" id="References">
+
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
